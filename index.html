@@ -168,12 +168,13 @@
         @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
 
         @media (max-width: 760px) {
+            html { font-size: 16px; }
             body { width: 84%; padding-left: 8%; padding-right: 8%; }
             section > p, .contact-line, .research-statement, .paper,
             .cv-block, .section-label, .paper-note, footer.page-footer { width: 100%; }
             .ornament-header, .geo-divider, .end-mark { width: 100%; left: 0; transform: none; margin-left: 0; }
             .sidenote, .marginnote { display: none; }
-            .bio-photo { float: none; width: 100%; margin-right: 0; }
+            .bio-photo { float: none; width: 100%; margin-right: 0; margin-top: 1.5rem; }
             .bio-photo img { width: 120px; }
             label.margin-toggle:not(.sidenote-number) { display: inline; cursor: pointer; }
             .margin-toggle:checked + .sidenote,
